@@ -3,31 +3,22 @@
     Author:
 
     Description:
-    Cocaine Effects
+    Cocaine Effect
 */
 
 //Close inventory
 closeDialog 0;
 
-//A Message for the user, removed sleep stuff
-hint "420 Blaze it!";
+//A User message and removed sleep function
+hint "Winners don't use drugs !";
 
 //Activate ppEffects we need
 "chromAberration" ppEffectEnable true;
 "radialBlur" ppEffectEnable true;
 enableCamShake true;
-_smoke = "SmokeShell" createVehicle position player;
-if (vehicle player != player) then
-    {
-        _smoke attachTo [vehicle player, [-0.6,-1,0]];
-    }
-    else
-    {
-        _smoke attachTo [player, [0,-0.1,1.5]];
-    };
-    
+
 //Let's go for 45secs of effetcs
-for "_i" from 0 to 155 do
+for "_i" from 0 to 44 do
 {
     "chromAberration" ppEffectAdjust [random 0.25,random 0.25,true];
     "chromAberration" ppEffectCommit 1;   
