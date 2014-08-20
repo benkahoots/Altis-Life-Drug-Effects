@@ -6,7 +6,7 @@ case (_item == "marijuana"):
     };
 };
 
-case (_item == "cocaine"):
+case (_item == "cocainep"):
 {
     if(([false,_item,1] call life_fnc_handleInv)) then
     {
@@ -14,7 +14,7 @@ case (_item == "cocaine"):
     };
 };
 
-case (_item == "heroin"):
+case (_item == "heroinp"):
 {
     if(([false,_item,1] call life_fnc_handleInv)) then
     {
