@@ -9,9 +9,8 @@
 //Close inventory
 closeDialog 0;
 
-//Little hint then wait a litle before starting drugs effects
+//A User message and removed sleep function
 hint "420 Blaze it!";
-sleep 3;
 
 //Activate ppEffects we need
 "chromAberration" ppEffectEnable true;
