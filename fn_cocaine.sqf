@@ -10,7 +10,7 @@
 closeDialog 0;
 
 //A User message and removed sleep function
-hint "Winners don't use drugs !";
+hint "***SNORT***";
 
 //Activate ppEffects we need
 "chromAberration" ppEffectEnable true;
