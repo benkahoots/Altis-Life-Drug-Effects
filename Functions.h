@@ -8,4 +8,5 @@ class Items
     class weed {};
     class cocaine {};
     class heroin {};
+    class shroom {};
 };
