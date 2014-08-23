@@ -21,3 +21,11 @@ case (_item == "heroinp"):
         [] spawn life_fnc_heroin;
     };
 };
+
+case (_item == "shroomsp"):
+{
+    if(([false,_item,1] call life_fnc_handleInv)) then
+    {
+        [] spawn life_fnc_shroom;
+    };
+};
